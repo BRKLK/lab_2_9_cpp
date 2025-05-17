@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.15) # Проверка версии CMake.
 set(PROJECT_NAME lab_2_9)				 # имя проекта		 
 project("${PROJECT_NAME}")
 
-set(CMAKE_CURRENT_LIST_DIR "D:/VSCode_projects/BFU/CppLabs/lab_2_9")
+set(CMAKE_CURRENT_LIST_DIR "D:/VSCode_projects/BFU/CppLabs/lab_2_9_cpp")
 
 add_executable("${PROJECT_NAME}" main.cpp)
 
