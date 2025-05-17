@@ -15,7 +15,6 @@ const sf::Vector2<float> BirdDefaultPos = {250, 250};
 const float gravity_acc = -1.0f;
 const float PipeSpeed = 5.0f;
 const float PipeWidth = 100.0f;
-// const float PipeLength = 500.0f;
 const float GapSize  = 250.0f; 
 const sf::Time SPAWN_INTERVAL = sf::seconds(1.5f);
 
@@ -59,17 +58,17 @@ int main()
     Score_message.setPosition({1200, 600});
 
     // Game Over Message
-    sf::Text message_go(font);           // Set the font
-    message_go.setString("GAME OVER!");   // Text to display
-    message_go.setCharacterSize(60);        // Font size in pixels
-    message_go.setFillColor(sf::Color::Red); // Text color
+    sf::Text message_go(font);           
+    message_go.setString("GAME OVER!");   
+    message_go.setCharacterSize(60);       
+    message_go.setFillColor(sf::Color::Red); 
     message_go.setPosition({440, 300}); 
 
     // Restart Message
-    sf::Text message_restart(font);           // Set the font
-    message_restart.setString("press R to restart");   // Text to display
-    message_restart.setCharacterSize(20);        // Font size in pixels
-    message_restart.setFillColor(sf::Color::White); // Text color
+    sf::Text message_restart(font);        
+    message_restart.setString("press R to restart");  
+    message_restart.setCharacterSize(20);        
+    message_restart.setFillColor(sf::Color::White); 
     message_restart.setPosition({550, 400});
 
 
